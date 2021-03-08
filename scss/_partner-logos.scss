@@ -1,0 +1,74 @@
+.partner-logos {
+  width: auto;
+  margin: 100px 200px 0px 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.busseys {
+  width: 215px;
+  height: 70px;
+  background: url('../img/busseys.jpg') no-repeat;
+  margin: 0px 20px 0px 20px;
+}
+
+.busseys:hover {
+  background: url('../img/busseys-hover.png') no-repeat;
+  .busseys-text {
+    visibility: visible;
+  }
+}
+
+
+.crane {
+  width: 327px;
+  height: 70px;
+  background: url('../img/crane.jpg') no-repeat;
+  margin: 0px 20px 0px 20px;
+}
+
+.crane:hover {
+  background: url('../img/crane-hover.png') no-repeat;
+}
+
+.beat {
+  width: 92px;
+  height: 70px;
+  background: url('../img/beat.jpg') no-repeat;
+  margin: 0px 20px 0px 20px;
+}
+
+.beat:hover {
+  background: url('../img/beat-hover.png') no-repeat;
+}
+
+.north {
+  width: 452px;
+  height: 70px;
+  background: url('../img/north.jpg') no-repeat;
+  margin: 0px 20px 0px 20px;
+}
+
+.north:hover {
+  background: url('../img/north-hover.png') no-repeat;
+}
+
+
+.busseys-bubble {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.busseys:hover .busseys-bubble {
+    visibility: visible;
+  }

@@ -1,0 +1,35 @@
+.bespoke-dropdown {
+    margin-top: -1px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    gap: 0px;
+    flex-direction: row;
+  }
+
+
+
+
+.bespoke:hover {
+  background-color: #67809f;
+    .fa-th {
+      color: white;
+    }
+    .bespoke-dropdown {
+      display: flex;
+    }
+}
+
+
+.bespoke-item:hover {
+  background-color: #67809f;
+  text-decoration: none;
+  color: white;
+}
+
+
+.bespoke-dropdown {
+    background-color: #67809f;
+}

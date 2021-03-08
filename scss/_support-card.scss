@@ -1,0 +1,85 @@
+.nav-cards .card {
+  display: flex;
+  height: 300px;
+  color: white;
+  align-items: center;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  flex-basis: 360px;
+}
+
+.card {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  border: 1px solid rgba(191, 191, 191, 0.8);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  letter-spacing: .4px;
+  padding: 0px 0px 20px 0px;
+}
+
+.card-title-it {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.desktop-icon {
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #4183d7;
+  border-radius: 50%;
+  background-color: #4183d7;
+  line-height: 1.42857143;
+}
+
+.desktop-icon {
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #4183d7;
+  border-radius: 50%;
+  background-color: #4183d7;
+  line-height: 1.42857143;
+}
+
+
+.card-it:hover {
+  background-color: #4183d7;
+    .under-line {
+      color: white;
+    }
+
+    .desktop-icon {
+      background-color: white;
+      border-color: white;
+      color: #4183d7;
+    }
+    .card-text {
+      color: white;
+    }
+    .card-title {
+      color: white;
+    }
+    .card-btn-it {
+      background-color: white;
+      color: #4183d7;
+    }
+}
+
+.card-btn-it {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 130px;
+  background-color: #4183d7;
+  border: none;
+  margin-bottom: 10px;
+  .btn-text-it {
+    margin: 22.5px 0px 22.5px 8px;
+  }
+}

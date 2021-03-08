@@ -1,0 +1,1 @@
+.digi-dropdown{margin-top:-1px;display:none;position:absolute;width:100%;left:0;justify-content:center;gap:35px;flex-direction:row}.digi-market:hover{background-color:#2ecc71}.digi-market:hover .fa-signal{color:white}.digi-market:hover .digi-dropdown{display:flex}.digi-item:hover{background-color:#2ecc71;text-decoration:none;color:white}.digi-dropdown{background-color:#2ecc71}

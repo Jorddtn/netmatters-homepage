@@ -1,0 +1,35 @@
+.cybsec-dropdown {
+    margin-top: -1px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    gap: 1px;
+    flex-direction: row;
+  }
+
+
+
+
+.cyb-sec:hover {
+  background-color: #f62459;
+    .fa-shield-alt {
+      color: white;
+    }
+    .cybsec-dropdown {
+      display: flex;
+    }
+}
+
+
+.cybsec-item:hover {
+  background-color: #f62459;
+  text-decoration: none;
+  color: white;
+}
+
+
+.cybsec-dropdown {
+    background-color: #f62459;
+}

@@ -1,0 +1,1 @@
+.tele-dropdown{margin-top:-1px;display:none;position:absolute;width:100%;left:0;justify-content:center;gap:4px;flex-direction:row}.telecoms:hover{background-color:#d64541}.telecoms:hover .fa-phone-volume{color:white}.telecoms:hover .tele-dropdown{display:flex}.tele-item:hover{text-decoration:none;color:white}.tele-dropdown{background-color:#d64541}

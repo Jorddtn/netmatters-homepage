@@ -1,0 +1,35 @@
+.it-dropdown {
+    margin-top: -1px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: row;
+  }
+
+
+
+
+.it-support:hover {
+  background-color: #4183d7;
+    .fa-desktop {
+      color: white;
+    }
+    .it-dropdown {
+      display: flex;
+    }
+}
+
+
+.it-item:hover {
+  background-color: #4183d7;
+  text-decoration: none;
+  color: white;
+}
+
+
+.it-dropdown {
+    background-color: #4183d7;
+}

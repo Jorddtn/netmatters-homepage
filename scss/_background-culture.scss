@@ -1,0 +1,49 @@
+.culture-container {
+  background-image: url("../img/netmatters-logo-bg.png");
+  background-color: #333645;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  background-position: 90% 80%;
+  padding: 50px 0px 50px 0px;
+  letter-spacing: .4px;
+  line-height: 200%;
+  margin-left: -15px;
+}
+
+.culture-text {
+  font-size: 1rem;
+  padding-left: 400px;
+}
+
+.btn-culture {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 180px;
+  margin-top: 30px;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+    font-weight: lighter;
+  .btn-text-culture {
+    margin: 22.5px 0px 22.5px 8px;
+    color: black;
+    letter-spacing: 1px;
+  }
+}
+
+
+.culture-arrow {
+  margin-left: 13px;
+}
+
+.btn-culture:hover {
+  background-color: #fff;
+  .btn-text-culture {
+    color: black;
+  }
+}

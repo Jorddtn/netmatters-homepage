@@ -1,0 +1,91 @@
+
+.nav-cards {
+  padding: 80px 380px 0px 380px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-cards .card {
+  display: flex;
+  height: 300px;
+  color: white;
+  align-items: center;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  flex-basis: 360px;
+}
+
+.card {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  letter-spacing: .4px;
+  padding: 0px 0px 20px 0px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.grid-icon {
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #67809f;
+  border-radius: 50%;
+  background-color: #67809f;
+  line-height: 1.42857143;
+}
+
+.under-line {
+  margin-top: -10px;
+  width: 28px;
+  height: 3px;
+  display: block;
+  background-color: #333645;
+}
+
+.card-btn-soft {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 130px;
+  background-color: #67809f;
+  border: none;
+  margin-bottom: 10px;
+  .btn-text-soft {
+    margin: 22.5px 0px 22.5px 8px;
+  }
+}
+
+
+.card:hover {
+  background-color: #67809f;
+    .under-line {
+      color: white;
+    }
+
+    .grid-icon {
+      background-color: white;
+      border-color: white;
+      color: #67809f;
+    }
+    .card-text {
+      color: white;
+    }
+    .card-title {
+      color: white;
+    }
+    .card-btn-soft {
+      background-color: white;
+      color: #67809f;
+    }
+}
