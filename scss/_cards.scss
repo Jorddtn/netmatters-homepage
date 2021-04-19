@@ -23,7 +23,6 @@
   display: flex;
   justify-content: space-between;
   align-self: center;
-
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
   letter-spacing: .4px;
@@ -88,4 +87,8 @@
       background-color: white;
       color: #67809f;
     }
+}
+
+.small-cards {
+  max-width: 100%;
 }

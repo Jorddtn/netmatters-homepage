@@ -1,0 +1,98 @@
+.award-container {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  flex-direction: row;
+  margin: 30px 480px 0px 480px;
+}
+
+
+.google-award {
+  width: 210px;
+  height: 70px;
+  background: url('../img/google-image.jpg') no-repeat;
+  margin: 0px 30px 0px 0px;
+}
+
+.microsoft-partner {
+  width: 115px;
+  height: 70px;
+  background: url('../img/microsoft-partner.jpg') no-repeat;
+  margin: 0px 50px 0px 0px;
+}
+
+.future-50 {
+  width: 115px;
+  height: 70px;
+  background: url('../img/future-50-bw.jpg') no-repeat;
+  margin: 0px 50px 0px 50px;
+}
+
+.future-50:hover {
+  background: url('../img/future-50.jpg') no-repeat;
+}
+
+.qms {
+  width: 85px;
+  height: 70px;
+  background: url('../img/qms-bw.jpg') no-repeat;
+  margin: 0px 50px 0px 20px;
+}
+
+.qms:hover {
+  background: url('../img/qms.jpg') no-repeat;
+}
+
+.carbon-chart {
+  width: 180px;
+  height: 70px;
+  background: url('../img/carbon-bw.jpg') no-repeat;
+  margin: 0px 0px 0px 50px;
+}
+
+.carbon-chart:hover {
+  background: url('../img/carbon.jpg') no-repeat;
+}
+
+.award-container-two {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  flex-direction: row;
+  margin: 30px 530px 0px 530px;
+}
+
+
+.growth {
+  width: 210px;
+  height: 70px;
+  background: url('../img/growth-bw.jpg') no-repeat;
+  margin: 0px 30px 0px 0px;
+}
+
+.growth:hover {
+  background: url('../img/growth.jpg') no-repeat;
+}
+
+
+.princess {
+  width: 210px;
+  height: 70px;
+  background: url('../img/princess-bw.jpg') no-repeat;
+  margin: 0px 50px 0px 50px;
+}
+
+.princess:hover {
+  background: url('../img/princess.jpg') no-repeat;
+}
+
+.skills {
+  width: 210px;
+  height: 70px;
+  background: url('../img/skills-bw.jpg') no-repeat;
+  margin: 0px 50px 0px 50px;
+}
+
+.skills:hover {
+  background: url('../img/skills.jpg') no-repeat;
+}
